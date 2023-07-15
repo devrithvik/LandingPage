@@ -14,7 +14,7 @@ export const Home = () => {
       
       elementsArray = elementsArray.filter((item) => item.classList.contains('opacity-0')) //filtring the elements that are yet to animate
       // foreach loop only runs elementsArray.length  times as we are using filtered array
-      elementsArray.forEach((obj) => {
+     await elementsArray.forEach((obj) => {
             if(viewHeight - obj.getBoundingClientRect().top > 50){
                 console.log(direction)
                 obj.classList.remove('opacity-0')
@@ -27,8 +27,13 @@ export const Home = () => {
 
 
     const revealOnScrollCallback = () => {
-      
-          setTimeout(async() => {
+
+            animate("left")
+            animate("right")
+            animate("bottom")
+            animate("top")
+ 
+        /*  setTimeout(async() => {
           await animate("left")
           },0)
           setTimeout(async() => {
@@ -39,8 +44,7 @@ export const Home = () => {
           },0)
           setTimeout(async() => {
             await animate("top")
-          },0)
-
+          },0)  */
     }
 
   window.addEventListener('scroll',revealOnScrollCallback)
@@ -52,6 +56,7 @@ export const Home = () => {
       <Whoweare/>
       <Footerform/>
       <Footercomponent />
+      <img src={"https://www.deepthought.education/assets/images/logo/logo.svg"} alt="nowaddedimage" />
     </>
   )
 }
