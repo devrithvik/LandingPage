@@ -14,7 +14,7 @@ export const Home = () => {
       
       elementsArray = elementsArray.filter((item) => item.classList.contains('opacity-0')) //filtring the elements that are yet to animate
       // foreach loop only runs elementsArray.length  times as we are using filtered array
-     await elementsArray.forEach((obj) => {
+       elementsArray.forEach((obj) => {
             if(viewHeight - obj.getBoundingClientRect().top > 50){
                 console.log(direction)
                 obj.classList.remove('opacity-0')
