@@ -1,6 +1,5 @@
 import React,{useRef} from 'react'
 import meeting from './multimedia/meeting.avif'
-import {AiFillCaretRight} from 'react-icons/Ai'
 const images = [1,2,3]
 
 export const Bluesection = () => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import {BsFillArrowRightCircleFill} from 'react-icons/Bs'
 export const Footerform = () => {
 
 
@@ -21,7 +20,6 @@ return (
                 type="mail" placeholder='Sample@gmail.com'/>
             <button onClick={submitHandler} className='opacity-0 right duration-1000 hover:scale-x-110 bg-white font-medium text-lg text-black px-4 py-3 rounded-lg'>
                 {'Join The Dt Learning Community '} 
-                <BsFillArrowRightCircleFill className=' inline scale-125 animate-ping duration-[10000ms] ease-in-out text-blue-600'/>
              </button>
         </div>
     </div>
