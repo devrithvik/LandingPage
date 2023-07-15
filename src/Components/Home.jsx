@@ -57,6 +57,7 @@ export const Home = () => {
       <Footerform/>
       <Footercomponent />
       <img src={"https://www.deepthought.education/assets/images/logo/logo.svg"} alt="nowaddedimage" />
+      <div className='text-9xl'>i love u i love u</div>
     </>
   )
 }
