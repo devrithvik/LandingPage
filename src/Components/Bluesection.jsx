@@ -21,8 +21,8 @@ export const Bluesection = () => {
     <div className='relative bg-blue-700 contrast-150 py-24 pl-20 flex top-[85px] mb-28'> 
        
         <div className='flex flex-col gap-10 px-10 text-left min-w-[50%]'>
-            <div className='text-6xl font-extrabold tracking-wider animate-bottom'>DT GrowthTeams</div>
-            <div className='leading-8 tracking-wider text-xl font-thin animate-top'>DT powers the teams of futuristic startups. Young contributors unlearn, relearn with us,
+            <div className='text-6xl font-extrabold tracking-wider animate-bottom'>Eduminati GrowthTeams</div>
+            <div className='leading-8 tracking-wider text-xl font-thin animate-top'>Eduminati powers the teams of futuristic startups. Young contributors unlearn, relearn with us,
                  to create socio-economic value. DT repositions
                   the education industry, DT is India's answer to Tesla</div>
         </div>

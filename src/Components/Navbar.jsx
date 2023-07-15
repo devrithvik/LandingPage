@@ -1,18 +1,19 @@
 import React from 'react'
 import { navHeadings } from './Navbarhelper'
 import { Navsinglecomponent } from './Navsinglecomponent'
-import dtLogo from './multimedia/dt.png'
 export const Navbar = () => {
   
 
   const headings = ["people","client","investor","Aboutus","partner",]
   return (
     <nav className="fixed top-0 w-full z-10 animate-top bg-white">
-          <div className='relative w-full flex justify-between items-center py-5 px-20 '> 
+          <div className='relative w-full flex justify-between items-center py-5 pl-10 pr-20 '> 
 
-               <img 
+               {/* <img 
                 className=' bg-white max-w-40 max-h-10 scale-150 cover p-3 border border-black border-solid rounded-tl-xl rounded-br-xl'
-                src={dtLogo} alt="deepthought" /> 
+                src={dtLogo} alt="deepthought" />  */}
+
+                <h1 className='text-black text-4xl tracking-widest font-sans font-thin '>EDUMINATI</h1>
 
               
                 <ul className='flex gap-10 text-black '>

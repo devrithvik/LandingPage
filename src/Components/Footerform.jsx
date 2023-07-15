@@ -19,7 +19,7 @@ return (
             <input className='opacity-0 right duration-1000 border-none hover:scale-x-110 bg-slate-300/10 px-4 py-3 rounded-lg focus:outline-white focus:outline-none focus:outline-1' 
                 type="mail" placeholder='Sample@gmail.com'/>
             <button onClick={submitHandler} className='opacity-0 right duration-1000 hover:scale-x-110 bg-white font-medium text-lg text-black px-4 py-3 rounded-lg'>
-                {'Join The Dt Learning Community '} 
+                {'Join The Eduminati Learning Community '} 
              </button>
         </div>
     </div>
